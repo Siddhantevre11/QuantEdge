@@ -535,7 +535,7 @@ if st.session_state.data_loaded:
 if not st.session_state.data_loaded:
     st.info("Click 'Run Full Analysis' in the sidebar to start")
     st.markdown("""
-    ### Barclays Quant Research Project
+    ### Quant Research Project
     This dashboard demonstrates a complete credit spread alpha model with:
     - Real-time market data integration
     - Algorithmic trade execution
@@ -546,7 +546,7 @@ if not st.session_state.data_loaded:
     - Credit spread signal generation
     - Adaptive TWAP execution
     - Stress testing across crisis scenarios
-    - Barclays-style risk limit monitoring
+    - Risk limit monitoring
     """)
 
 # Footer
